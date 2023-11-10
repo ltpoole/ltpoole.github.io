@@ -8,3 +8,15 @@
 body {
     min-height: 100vh;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: lightgray;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20rem;
+}
