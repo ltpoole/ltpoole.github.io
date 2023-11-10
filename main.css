@@ -20,3 +20,7 @@ nav ul {
     display: flex;
     gap: 20rem;
 }
+
+h1 {
+    text-align: center;
+}
