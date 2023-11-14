@@ -69,8 +69,64 @@ h4 {
     flex-direction: column;
     max-width: 20rem;
     place-items: right;
+    border-radius: 2px; 
+    border-style: double;
+    border-color: darkblue;
+    padding: 1rem 1rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.transfer {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
     border-radius: 2px;
     border-style: double;
     border-color: darkblue;
     padding: 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.money {
+    width: 75%;
+    max-height: 20rem;
+}
+
+.rpsls {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    border-radius: 2px;
+    border-style: double;
+    border-color: darkblue;
+    padding: 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.rock {
+    width: 75%;
+    max-height: 20rem;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+     max-width: 20rem;
+    border-radius: 2px;
+    border-style: double;
+    border-color: darkblue;
+    padding: 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.earpods {
+    width: 75%;
+    max-height: 10rem;
 }
