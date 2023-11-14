@@ -3,8 +3,9 @@
 *,
 * ::before,
 * ::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -77,6 +78,7 @@ h4 {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -117,7 +119,7 @@ h4 {
 .music {
     display: flex;
     flex-direction: column;
-     max-width: 20rem;
+    max-width: 20rem;
     border-radius: 2px;
     border-style: double;
     border-color: darkblue;
@@ -129,4 +131,21 @@ h4 {
 .earpods {
     width: 75%;
     max-height: 10rem;
+}
+
+.soon {
+    display: flex;
+    flex-direction: column;
+     max-width: 20rem;
+    border-radius: 2px;
+    border-style: double;
+    border-color: darkblue;
+    padding: 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.comingsoon {
+    width: 100%;
+    max-height: 20rem;
 }
