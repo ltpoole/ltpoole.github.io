@@ -3,9 +3,8 @@
 *,
 * ::before,
 * ::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
 body {
@@ -146,6 +145,20 @@ h4 {
 }
 
 .comingsoon {
-    width: 100%;
-    max-height: 20rem;
+    width: 80%;
+    max-height: 15rem;
+}
+
+footer {
+    background-color: gray;
+}
+
+.icons img {
+    width: 40px;
+    height: auto;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
 }
