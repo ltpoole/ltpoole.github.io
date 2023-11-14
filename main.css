@@ -52,6 +52,7 @@ h4 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: darkblue;
 }
 
 .leftColumn {
@@ -68,4 +69,8 @@ h4 {
     flex-direction: column;
     max-width: 20rem;
     place-items: right;
+    border-radius: 2px;
+    border-style: double;
+    border-color: darkblue;
+    padding: 1rem 1rem;
 }
